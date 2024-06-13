@@ -7,7 +7,11 @@ console.log(cont.firstElementChild);
 cont.firstElementChild.style.backgroundColor = "yellow";
 cont.lastElementChild.style.backgroundColor = "red";
 
+//only element
+console.log(document.body.firstElementChild.children);
+
 //parent element
 console.log(cont.lastElementChild.parentElement);
 
-//accessing all childs at one time
+//next element child
+console.log(document.body.firstElementChild.children[1].nextElementSibling);
