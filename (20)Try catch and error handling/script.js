@@ -5,7 +5,7 @@ if (isNaN(a) || isNaN(b)) {
   throw SyntaxError("Sorry this is not allowed");
 }
 
-let sum = parseInt(a) + parseInt(b);
+let sum = parseInt(a) + parseInt(b); //string into integer
 
 function main() {
   let x = 1;
