@@ -19,7 +19,7 @@ class Animal {
   constructor(name) {
     this.name = name;
     console.log("Object is created...");
-  }
+  } 
 
   eats() {
     console.log("Kha raha hoon");
